@@ -18,8 +18,8 @@ export default function Home() {
   }
 
   return (
-    <div className={estilos.page}>
-      <main className={alterarFundoPagina ? estilos.main_dark : estilos.main_ligth}>
+    <div className={alterarFundoPagina ? estilos.page_dark : estilos.page_light}>
+      <main className={estilos.main}>
         <div className={estilos.container_topo}>
           <Image className={estilos.img} src={logo} alt="Imagem da logo da barbearia" />
           <button className={estilos.btn} onClick={trocaTema}>
